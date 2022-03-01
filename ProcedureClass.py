@@ -20,3 +20,20 @@ class Procedure:
 
     def get_patientID(self):
         return self.__patientID
+
+    def set_proc_name(self, procname):
+        self.__proc_name = procname
+
+    def set_proc_date(self, procdate):
+        self.__proc_date = procdate
+
+    def set_proc_doc(self, procdoc):
+        self.__proc_doc = procdoc
+
+    def set_proc_cost(self, proccost):
+        self.__proc_cost = proccost
+
+    def set_patientID(self, patID):
+        self.__patientID = patID
+
+    
