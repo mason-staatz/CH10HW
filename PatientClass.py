@@ -21,3 +21,5 @@ class Patient:
     def get_veteran_status(self):
         return self.__veteran_status
     
+
+   
